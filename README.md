@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 The **requirements.txt** contains:
 
-```
+```python
 requests
 ```
 
