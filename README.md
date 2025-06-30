@@ -124,7 +124,7 @@ edition = "2024"
 
 [dependencies]
 reqwest = { version = "0.12", features = ["blocking", "json"
-
+````
 ## Output
 
 Each run produces a detailed `.csv` log:
