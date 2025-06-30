@@ -162,9 +162,7 @@ requests
 
 ````
 
----
 
-**Cargo.toml**
 ```toml
 [package]
 name = "rustpython"
