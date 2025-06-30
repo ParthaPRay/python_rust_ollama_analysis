@@ -152,14 +152,12 @@ This repository is open for academic and research use. Please cite appropriately
 **For questions or suggestions, open an issue or contact Partha Pratim Ray ([parthapratimray1986@gmail.com](mailto:parthapratimray1986@gmail.com)).**
 
 ```
-
+requirements.txt
 ---
 
-**requirements.txt**
+
 ```
-
 requests
-
 ````
 
 
@@ -178,4 +176,3 @@ chrono = "0.4"
 
 ---
 
-**This README.md provides all context, reproducibility steps, and the research framing needed for your project to be easily understood, cited, and extended. If you want a section for "Analysis Scripts" or sample graphs, just ask!**
