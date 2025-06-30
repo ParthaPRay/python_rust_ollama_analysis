@@ -109,6 +109,22 @@ python python_ollama_api.py
 
 ---
 
+**requirements.txt**
+```sh
+requests
+````
+
+**Cargo.toml**
+
+```toml
+[package]
+name = "rustpython"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["blocking", "json"
+
 ## Output
 
 Each run produces a detailed `.csv` log:
@@ -151,24 +167,7 @@ This repository is open for academic and research use. Please cite appropriately
 
 **For questions or suggestions, open an issue or contact Partha Pratim Ray ([parthapratimray1986@gmail.com](mailto:parthapratimray1986@gmail.com)).**
 
-```
-requirements.txt
----
-
-
-```
-requests
-````
-
-
-```toml
-[package]
-name = "rustpython"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-reqwest = { version = "0.12", features = ["blocking", "json"] }
+] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 chrono = "0.4"
