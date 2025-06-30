@@ -123,7 +123,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-reqwest = { version = "0.12", features = ["blocking", "json"
+reqwest = { version = "0.12", features = ["blocking", "json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = "0.4"
 ````
 ## Output
 
@@ -159,19 +162,7 @@ With both CSVs, you can:
 
 ---
 
-## License
 
-This repository is open for academic and research use. Please cite appropriately if you use this in your work.
 
----
 
-**For questions or suggestions, open an issue or contact Partha Pratim Ray ([parthapratimray1986@gmail.com](mailto:parthapratimray1986@gmail.com)).**
-
-] }
-serde = { version = "1", features = ["derive"] }
-serde_json = "1"
-chrono = "0.4"
-````
-
----
 
