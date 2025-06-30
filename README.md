@@ -1,17 +1,14 @@
-Here’s a **robust and research-oriented `README.md`** for your `pythonrust` comparative analysis repo.
-This will make your project easy to understand for others, reproducible for researchers, and clear about the setup/usage on a Raspberry Pi 4B.
+# 🦀🧠 Python–Rust Comparative Analysis for Localized LLM Inference via Ollama on Raspberry Pi 4B
+
+This repository provides a **novel comparative performance analysis framework** using both **Python** and **Rust** to interact with a **locally running LLM via Ollama API** on a **Raspberry Pi 4B**.
+
+Both languages execute a set of 20 diverse prompts under controlled temperature and seed conditions, and log runtime and model evaluation metrics into CSV files. The goal is to analyze latency, throughput, and robustness of the RESTful API interface.
 
 ---
 
-```markdown
-# Python–Rust Comparative Analysis for Localized LLM Inference via Ollama on Raspberry Pi 4B
+## 📌 Project Structure
 
-This repository presents a robust framework for **comparing the performance and behavior of Python and Rust clients** interfacing with localized LLMs using the Ollama API. Both implementations run on a Raspberry Pi 4B, sharing a common prompt set, logging format, and data analysis pipeline.
 
-- **Authors**: Partha Pratim Ray (parthapratimray1986@gmail.com)
-- **Date**: 30 June 2025
-
----
 
 ## Project Structure
 
